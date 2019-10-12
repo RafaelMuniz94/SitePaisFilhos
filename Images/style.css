@@ -1,0 +1,75 @@
+*{font-family: 'Asap', sans-serif;}
+#wrapperTop{background:#ffedbc; color: #56220e; padding: 10px; font-size: 18px;}
+#headerPhone{}
+#headerSocial{ text-align: right;}
+#headerSocial a{ color: #56220e; font-size: 24px; margin-left: 10px;}
+#headerSocial a:hover{ color: #985035;}
+#header{background:#56220e; padding: 20px 0; }
+#header img{ max-width: 150px; }
+#nav{
+	width:75%; float:right;
+	padding-top: 4em;
+}
+#nav ul{list-style: none; text-align: right; }
+#nav ul li{	display: inline; }
+#nav ul li a{padding: 0 1em 0 0; color: #ffedbc;}
+#navMobile{background: #56220e; color: #ffedbc;}
+#navMobile ul{list-style: none; padding: 0;}
+#navMobile ul li{border-bottom: .5px solid #ffedbc; padding: 10 5px;}
+#navMobile ul li a{color: #ffedbc;}
+
+#footer{border-top: 10px solid #ffedbc; background: #56220e; padding: 30px 0;  color: #ffedbc;}
+#address{text-align: right}
+.footerNav a{color: #ffedbc;}
+.main{ padding-top: 30px; padding-bottom: 30px; }
+.title{background: #692f19;	color: #FFF; text-align: center; font-size: 40px; padding: 10px 0; font-family: 'Lobster', cursive;}
+.title2{ margin: 20px 0; font-family: 'Lobster', cursive; color: #56220e;}
+.title2:hover, .box1:hover .title2{color: #b55c3a; }
+.box1{text-align: center;}
+.box1 a{text-decoration: none;}
+.box1 img{transition: all .5s ease;}
+.box1:hover img{opacity: 0.7; transform: scale(0.9);}
+
+.padding1{padding: 30px 0;}
+
+
+/********** formulário **************/
+.wpcf7 { width: 100%;}
+.formLabel{	display: block;	font-weight: bold;}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 select,
+.wpcf7 textarea {
+	font-size: 16px; background-color: #ffedbc;
+	border: none; width: 100%;	padding: 2%;
+}
+.wpcf7 textarea{
+	height: 100px;
+}
+.wpcf7 input[type="submit"] {
+	color: #ffedbc;	font-size: 18px; font-weight: 700;
+	background: #56220e; padding: 10px 15px;
+	border: none; border-radius: 5px;
+	text-transform: uppercase;
+}
+.wpcf7 input:hover[type="submit"] {
+	background: #1892ca;
+	transition: all 0.4s ease 0s;
+}
+.wpcf7 input:active[type="submit"] {
+	background: #000000;
+}
+/********************** Breakpoint ******************/
+#banners img{min-width: 100%;}
+@media (max-width: 772px){
+	#header,#headerSocial,
+	#headerPhone, #headerPhone,
+	.footerNav, #address{text-align: center;}
+	#footer ul{list-style: none; padding: 0;}
+	
+	#nav{width: 90%; margin: auto; }
+	#nav ul{text-align: center; padding: 0; }
+	#nav ul li{	display:block; padding: 10px 5px; border-bottom: 1px solid #ffedbc;}
+	#nav ul li a{}
+}

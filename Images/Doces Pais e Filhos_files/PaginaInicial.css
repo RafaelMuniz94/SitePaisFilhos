@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #56220e;
+}
+
+.secao_Conteudo{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1000px;
+    display: flex;
+
+
+    
+    /* background-image: url(bolo-kit-kat-1.jpg); /* fallback 
+    background-image:  linear-gradient(to right,#eb01a5, #ffffff), url(bolo-kit-kat-1.jpg);
+    background-size:cover; 
+    background-color: #eb01a5;*/
+
+
+
+
+}
+
+#sct_QuemSomos{
+    background: linear-gradient(to right, rgba(255,255,255,0) 20%,
+              #eb01a5); 
+}
+#sct_Produtos{
+    background: linear-gradient(to left, rgba(255,255,255,0) 20%,
+              #eb01a5); 
+}
+    
+
+
+
+.Painel_Conteudo{
+
+    display: inline-block;
+    font-family:sans-serif;
+
+   
+   
+}
+
+.Painel_Conteudo p{
+    text-align: justify;
+    max-width: 50%;
+    max-height: 100%;
+   
+}
+
+.Painel_Conteudo_Direita{
+    font-family:sans-serif;
+    float: right;
+
+}
+
+.Painel_Conteudo_Direita p{
+    text-align: justify;
+    max-height: 100%;
+   
+}
+
+.imgCarousel {
+    width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+  }
+  .carousel-inner{
+    width:100%;
+    max-height: 400px !important;
+
+  }
+
+
+  .carousel-inner img{
+    width: 400px;
+    height: 400px;
+    max-width: 400px;    
+    max-height: 400px;
+  }
+  .carousel-caption{
+    line-height:initial;
+  }
+
+  .seta{
+      color: red
+  }
