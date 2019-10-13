@@ -1,283 +1,260 @@
-
-
-body{
+body {
 	margin: 0;
-   padding: 0;
-   background:url(../Images/IMG_20190803_210849.jpg) no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-color: #6e242a
-   /* background-color: #56220e; */
+	padding: 0;
+	background: url(../Images/IMG_20190803_210849.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #6e242a
+	/* background-color: #56220e; */
 }
 
-.secao_Conteudo{
-   width: 100%;
-   margin: 0 auto;
-   padding: 0 30px;
-   max-width: 1000px;
-   display: inline-flex;
-  
-   /* padding-left: 0; */
-   /* height: 0;
+.secao_Conteudo {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 1000px;
+	display: inline-flex;
+	color: #ffedbc;
+	/* padding-left: 0; */
+	/* height: 0;
    max-height: 0; */
-   
-   
-   /* background-image: url(bolo-kit-kat-1.jpg); /* fallback 
+	/* background-image: url(bolo-kit-kat-1.jpg); /* fallback 
    background-image:  linear-gradient(to right,#eb01a5, #ffffff), url(bolo-kit-kat-1.jpg);
    background-size:cover; 
    background-color: #eb01a5;*/
-
-
-
-
 }
 
-.slider{
-   overflow-y: hidden;
-   max-height: 500px; /* approximate max height */
 
-   transition-property: all;
-   transition-duration: .5s;
-   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+.Painel_Conteudo {
+	
+	background: linear-gradient(to left, rgba(255, 255, 255, 0) 10%, #6e242a);
 }
 
-.slider .closed{
-   max-height: 0;
+ .secao_Midia {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 10%, #6e242a);
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 1000px;
+	display: flex;
+} 
+
+.Painel_Conteudo {
+	display: inline-block;
+	font-family: sans-serif;
+	padding-right: 50px;
+	padding-left: 10px;
+	height: auto;
 }
 
-#sct_QuemSomos{
-   background: linear-gradient(to right, rgba(255,255,255,0) 20%,
-			 #eb01a5); 
-}
-#sct_Produtos{
-   background: linear-gradient(to left, rgba(255,255,255,0) 20%,
-			 #eb01a5); 
-}
-   
-
-
-
-.Painel_Conteudo{
-
-   display: inline-block;
-   font-family:sans-serif;
-   padding-right: 50px
-  
-  
+.Painel_Conteudo p {
+	text-align: justify;
+	max-width: 50%;
+	max-height: 100%;
 }
 
-.Painel_Conteudo p{
-   text-align: justify;
-   max-width: 50%;
-   max-height: 100%;
-  
+.Painel_Conteudo_Direita {
+	font-family: sans-serif;
+	
+	padding-left: 50px;
+	color: #ffedbc;
+	display: inline-block;
 }
 
-.Painel_Conteudo_Direita{
-   font-family:sans-serif;
-   float: right;
-   padding-left: 50px
-
-}
-
-.Painel_Conteudo_Direita p{
-   text-align: justify;
-   max-height: 100%;
-  
+.Painel_Conteudo_Direita p {
+	text-align: justify;
+	max-height: 100%;
 }
 
 .imgCarousel {
-   width: 100%;
-   max-height: 100%;
-   min-height: 100%;
- }
- .carousel-inner{
-   width:100%;
-   max-height: 400px !important;
+	width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+}
 
- }
+.carousel{
+	table-layout: auto !important;
+}
 
+.carousel-inner {
+	width: 100%;
+	max-height: 400px !important;
+}
 
- .carousel-inner img{
-   width: 400px;
-   height: 400px;
-   max-width: 400px;    
-   max-height: 400px;
- }
- .carousel-caption{
-   line-height:initial;
- }
+.carousel-inner img {
+	width: 400px;
+	height: 400px;
+	max-width: 400px;
+	max-height: 400px;
+}
 
-  .carousel-control-prev, .carousel-control-next{
-   filter: invert(100%);
- }  
+.carousel-caption {
+	line-height: initial;
+}
 
- .ia-container {
-   width: 535px;
-   margin: 20px auto;
-   overflow: hidden;
-   box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
-   border: 7px solid rgba(255,255,255,0.6);
+.carousel-control-prev, .carousel-control-next {
+	filter: invert(100%);
+}
+
+.ia-container {
+	width: 585px;
+	/*( (Number of images - 1) * 50px ) + 335px */
+	margin: 0 auto;
+	overflow: hidden;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+	border: 7px solid rgba(255, 255, 255, 0.6);
 }
 
 .ia-container figure {
-   position: absolute;
-   margin:0;
-   top: 0;
-   left: 50px; /* width of visible piece */
-   width: 335px;
-   box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
-   transition: all 0.3s ease-in-out;
-   height: 100% !important;
-   background-color: #6e242a
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 50px;
+	/* width of visible piece */
+	width: 335px;
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+	transition: all 0.3s ease-in-out;
+	height: 100% !important;
+	background-color: #6e242a
 }
 
-.ia-container > figure {
-   position: relative;
-   left: 0 !important;
-  
+.ia-container>figure {
+	position: relative;
+	left: 0 !important;
 }
 
 .ia-container img {
-   display: block;
-   width: 100%;
-   height: 100% !important;
+	display: block;
+	width: 100%;
+	height: 100% !important;
 }
 
 .ia-container input {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 50px; /* just cover visible part */
-   height: 100%;
-   cursor: pointer;
-   border: 0;
-   padding: 0;
-   opacity: 0;
-   z-index: 100;
-   -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	/* just cover visible part */
+	height: 100%;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	opacity: 0;
+	z-index: 100;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
-.ia-container input:checked{
-   width: 5px;
-   left: auto;
-   right: 0px;
+.ia-container input:checked {
+	width: 5px;
+	left: auto;
+	right: 0px;
 }
-.ia-container input:checked ~ figure {
-   left: 335px;
-   transition: all 0.7s ease-in-out;
+
+.ia-container input:checked~figure {
+	left: 335px;
+	transition: all 0.7s ease-in-out;
 }
 
 .ia-container figcaption {
-   width: 100%;
-   height: 100%;
-   background: rgba(87, 73, 81, 0.1);
-   position: absolute;
-   top: 0px;
-   transition: all 0.2s linear;
+	width: 100%;
+	height: 100%;
+	background: rgba(87, 73, 81, 0.1);
+	position: absolute;
+	top: 0px;
+	transition: all 0.2s linear;
 }
 
 .ia-container figcaption span {
-   position: absolute;
-   top: 40%;
-   margin-top: -30px;
-   right: 20px;
-   left: 20px;
-   overflow: hidden;
-   text-align: center;
-   background: rgba(87, 73, 81, 0.3);
-   line-height: 20px;
-   font-size: 18px;
-   opacity: 0;
-   text-transform: uppercase;
-   letter-spacing: 4px;
-   font-weight: 700;
-   padding: 20px;
-   color: #fff;
-   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-} 
-
-.ia-container input:checked + figcaption,
-.ia-container input:checked:hover + figcaption{
-   background: rgba(87, 73, 81, 0);
+	position: absolute;
+	top: 40%;
+	margin-top: -30px;
+	right: 20px;
+	left: 20px;
+	overflow: hidden;
+	text-align: center;
+	background: rgba(87, 73, 81, 0.3);
+	line-height: 20px;
+	font-size: 18px;
+	opacity: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 700;
+	padding: 20px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.ia-container input:checked + figcaption span {
-   transition: all 0.4s ease-in-out 0.5s;
-   opacity: 1;
-   top: 50%;
+.ia-container input:checked+figcaption, .ia-container input:checked:hover+figcaption {
+	background: rgba(87, 73, 81, 0);
 }
 
-.ia-container #ia-selector-last:checked + figcaption span {
-   transition-delay: 0.3s;
+.ia-container input:checked+figcaption span {
+	transition: all 0.4s ease-in-out 0.5s;
+	opacity: 1;
+	top: 50%;
 }
 
-.ia-container input:hover + figcaption {
-   background: rgba(87, 73, 81, 0.03);
+.ia-container #ia-selector-last:checked+figcaption span {
+	transition-delay: 0.3s;
 }
 
-.ia-container input:checked ~ figure input{
-   z-index: 1;
+.ia-container input:hover+figcaption {
+	background: rgba(87, 73, 81, 0.03);
+}
+
+.ia-container input:checked~figure input {
+	z-index: 1;
 }
 
 @media screen and (max-width: 720px) {
-   .ia-container { 
-	   width: 540px; 
-   }
-   
-   .ia-container figure { 
-	   left: 40px; 
-	   width: 260px; 
-   }
-   
-   .ia-container input { 
-	   width: 40px; 
-   }
-   
-   .ia-container input:checked ~ figure { 
-	   left: 260px; 
-   }
-   
-   .ia-container figcaption span { 
-	   font-size: 16px; 
-   }
+	.ia-container {
+		width: 540px;
+	}
+	.ia-container figure {
+		left: 40px;
+		width: 260px;
+	}
+	.ia-container input {
+		width: 40px;
+	}
+	.ia-container input:checked~figure {
+		left: 260px;
+	}
+	.ia-container figcaption span {
+		font-size: 16px;
+	}
 }
 
 @media screen and (max-width: 520px) {
-   .ia-container { 
-	   width: 320px; 
-   }
-   
-   .ia-container figure { 
-	   left: 20px; 
-	   width: 180px; 
-   }
-   
-   .ia-container input { 
-	   width: 20px; 
-   }
-   
-   .ia-container input:checked ~ figure { 
-	   left: 180px; 
-   }
-   
-   .ia-container figcaption span { 
-	   font-size: 12px; 
-	   letter-spacing: 2px; 
-	   padding: 10px; 
-	   margin-top: -20px; 
-   } 
-
+	.ia-container {
+		width: 320px;
+	}
+	.ia-container figure {
+		left: 20px;
+		width: 180px;
+	}
+	.ia-container input {
+		width: 20px;
+	}
+	.ia-container input:checked~figure {
+		left: 180px;
+	}
+	.ia-container figcaption span {
+		font-size: 12px;
+		letter-spacing: 2px;
+		padding: 10px;
+		margin-top: -20px;
+	}
 }
 
-#fp-nav span{
+#fp-nav span {
 	background: white !important
 }
 
-#fig_QuemSomos{
-   order:1
+#fig_QuemSomos {
+	order: 1
 }
