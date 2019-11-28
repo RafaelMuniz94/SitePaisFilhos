@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <div id="pagina">
         <div class="section" data-anchor="HomePage">
             <div class="ia-container">
@@ -56,7 +55,7 @@
 
 
         <div id="sct_QuemSomos" data-anchor="QuemSomosPage" class="section fp-scrollable secao_Conteudo">
-            <div id="text_Quem_Somos" class="Painel_Conteudo">
+            <div id="text_Quem_Somos" class="Painel_Conteudo_Imagem">
                 <h1>Quem Somos</h1>
                 <p>
                     Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
@@ -85,84 +84,115 @@
                     mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
                     PageMaker.
                 </p>
+            </div>
 
+            <div class="Midia_Direita_Texto">
+                <img align="right" src="../Images/logo.png" alt="Quem Somos" />
             </div>
         </div>
 
-        <div id="sct_Produtos" data-anchor="ProdutosPage" class="section fp-scrollable secao_Midia">
-            <div class="bd-example">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./Images/01_13_58_553_bolo_chocolate.jpg" alt="Bolo de Chocolate"
-                                class="imgCarousel">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <!-- <div class="section fp-scrollable"> -->
+            <!-- <div class="teste"> -->
+                <div id="sct_Produtos" data-anchor="ProdutosPage" class="section fp-scrollable secao_Midia">                       
+                    <div class="bd-example">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./Images/01_13_58_553_bolo_chocolate.jpg" alt="Bolo de Chocolate"
+                                        class="imgCarousel">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>First slide label</h5>
+                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Images/268814_original.jpg" alt="Outro Bolo" class="imgCarousel">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second slide label</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Images/bolo-kit-kat-1.jpg" alt="Kitkat" class="imgCarousel">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third slide label</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./Images/268814_original.jpg" alt="Outro Bolo" class="imgCarousel">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./Images/bolo-kit-kat-1.jpg" alt="Kitkat" class="imgCarousel">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
 
-            <div id="text_Produtos" class="Painel_Conteudo_Direita">
-                <h1>Produtos</h1>
-                <p>
-                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
-                    sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
-                    embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
-                    como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se
-                    popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e
-                    mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
-                    PageMaker.
-                </p>
-                <p>
-                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
-                    sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
-                    embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
-                    como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se
-                    popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e
-                    mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
-                    PageMaker.
-                </p>
-                <p>
-                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
-                    sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
-                    embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
-                    como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se
-                    popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e
-                    mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
-                    PageMaker.
-                </p>
-            </div>
-        </div>
+                    <div id="text_Produtos" class="Painel_Conteudo_Direita">
+                      
+                        <h1>Produtos</h1>
+                        <p>
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e
+                            vem
+                            sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de
+                            tipos
+                            e os
+                            embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco
+                            séculos,
+                            como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
+                            Se
+                            popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem
+                            Ipsum, e
+                            mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como
+                            Aldus
+                            PageMaker.
+                        </p>
+                        <p>
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e
+                            vem
+                            sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de
+                            tipos
+                            e os
+                            embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco
+                            séculos,
+                            como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
+                            Se
+                            popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem
+                            Ipsum, e
+                            mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como
+                            Aldus
+                            PageMaker.
+                        </p>
+                        <p>
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e
+                            vem
+                            sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de
+                            tipos
+                            e os
+                            embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco
+                            séculos,
+                            como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
+                            Se
+                            popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem
+                            Ipsum, e
+                            mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como
+                            Aldus
+                            PageMaker.
+                        </p>
+                    </div>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
 
         <div id="sct_Blog" data-anchor="BlogPage" class="section fp-scrollable secao_Conteudo">
             <div id="text_Blog" class="Painel_Conteudo">
@@ -268,6 +298,10 @@
             keyboardScrolling: true,
             fitToSection: true,
             scrollOverflow: true,
+            fitToSectionDelay: 1000,
+            resetSliders: false,
+            scrollOverflowReset: true,
+            scrollOverflowOptions: null,
         })
     </script>
 </body>
