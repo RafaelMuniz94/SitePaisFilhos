@@ -1,12 +1,17 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(../Images/IMG_20190803_210849.jpg) no-repeat center center fixed;
+	background:
+	linear-gradient(53.13deg, #ffedbc 11%, transparent 0, transparent 88%, #ffedbc 0),
+	linear-gradient(126.87deg, #ffedbc 11%, transparent 0, transparent 88%, #ffedbc 0)
+	,#6e242a !important;
+   background-size: 22px 22px;
+	/* background: url(../Images/IMG_20190803_210849.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: #6e242a
+	background-color: #6e242a */
 	/* background-color: #56220e; */
 }
 
@@ -20,9 +25,9 @@ body {
 	/* padding-left: 0; */
 	/* height: 0;
    max-height: 0; */
-	/* background-image: url(bolo-kit-kat-1.jpg); /* fallback 
+	/* background-image: url(bolo-kit-kat-1.jpg); /* fallback
    background-image:  linear-gradient(to right,#eb01a5, #ffffff), url(bolo-kit-kat-1.jpg);
-   background-size:cover; 
+   background-size:cover;
    background-color: #eb01a5;*/
 }
 
@@ -32,18 +37,18 @@ body {
 
 
 .Painel_Conteudo {
-	
+
 	background: linear-gradient(to left, rgba(255, 255, 255, 0) 10%, #6e242a);
 }
 
  .secao_Midia {
-	background: linear-gradient(to right, rgba(255, 255, 255, 0) 10%, #6e242a);
+	/* background: linear-gradient(to right, rgba(255, 255, 255, 0) 10%, #6e242a); */
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 10px;
 	max-width: 1000px;
 	display: flex;
-} 
+}
 
 .Painel_Conteudo {
 	display: inline-block;
@@ -68,7 +73,7 @@ body {
 .Painel_Conteudo_Imagem p {
 	text-align: justify;
 	max-height: 100%;
-	
+
 }
 
 
@@ -77,13 +82,13 @@ body {
 	text-align: justify;
 	max-width: 50%;
 	max-height: 100%;
-	
+
 }
 
 .Painel_Conteudo_Direita {
 	direction: rtl;
 	font-family: sans-serif;
-	font-size: 12px;	
+	font-size: 12px;
 	padding-left: 50px;
 	color: #ffedbc;
 	display: inline-block;
@@ -321,7 +326,7 @@ body {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
   }
-  
+
   .icon-bar a {
 	display: block;
 	text-align: center;
@@ -330,24 +335,24 @@ body {
 	color: white;
 	font-size: 20px;
   }
-  
+
   .icon-bar a:hover {
 	background-color: #000;
   }
-  
+
   .facebook {
 	background: #3B5998;
 	color: white;
   }
-  
-  
+
+
   .instagram {
 	background: linear-gradient(131deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 	color: white;
   }
-  
 
-  
+
+
   .content {
 	margin-left: 75px;
 	font-size: 30px;
